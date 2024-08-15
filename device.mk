@@ -209,6 +209,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
 
 # Media
+TARGET_DISABLE_C2_CODEC := false
+
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor
