@@ -3,7 +3,7 @@ end="\033[0m"
 
 # Vendor & Kernel Sources
 echo -e "${color}Cloning vendor${end}"
-git clone --depth=1 -b udc https://github.com/ihsanulrahman/vendor_xiaomi_miatoll vendor/xiaomi/miatoll
+git clone --depth=1 -b icecream https://github.com/ihsanulrahman/vendor_xiaomi_miatoll vendor/xiaomi/miatoll
 
 echo -e "${color}Cloning kernel${end}"
 git clone --depth=1 -b universe https://github.com/BlissRoms-Devices/android_kernel_xiaomi_sm6250 kernel/xiaomi/sm6250
