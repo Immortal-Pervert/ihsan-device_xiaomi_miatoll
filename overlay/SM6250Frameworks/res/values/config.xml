@@ -643,4 +643,7 @@
     <!-- Default component for QR code scanner -->
     <string name="config_defaultQrCodeComponent" translatable="false">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
 
+    <!-- Disable Smart 5G -->
+    <bool name="config_supportSmart5G">false</bool>
+
 </resources>
