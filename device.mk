@@ -14,7 +14,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # MiuiCamera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/MiuiCamera.mk)
+#$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/MiuiCamera.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal

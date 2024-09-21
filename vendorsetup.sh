@@ -20,8 +20,8 @@ sleep 1
 
 # Miui Camera & Dolby 
 echo -e "${color}Cloning Miui Camera${end}"
-git clone -b 14 https://github.com/ihsanulrahman/vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera
-bash vendor/xiaomi/miuicamera/vendorsetup.sh
+#git clone -b 14 https://github.com/ihsanulrahman/vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera
+#bash vendor/xiaomi/miuicamera/vendorsetup.sh
 
 echo -e "${color}Cloning Dolby${end}"
 git clone https://github.com/veux-frost-testzone/hardware_dolby hardware/dolby
