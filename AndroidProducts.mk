@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_miatoll.mk
+    $(LOCAL_DIR)/aosp_miatoll.mk
