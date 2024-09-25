@@ -15,6 +15,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
+# Inherit from private keys.
+$(call inherit-product-if-exists, vendor/aosp-priv/keys/keys.mk)
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SCREEN_HEIGHT := 2400
