@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_miatoll.mk
+    $(LOCAL_DIR)/infinity_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_miatoll-user \
-    bliss_miatoll-userdebug \
-    bliss_miatoll-eng
+    infinity_miatoll-user \
+    infinity_miatoll-userdebug \
+    infinity_miatoll-eng

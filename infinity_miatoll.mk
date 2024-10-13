@@ -14,13 +14,13 @@
 
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common BlissRoms stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inherit some common infinity-x stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := bliss_miatoll
+PRODUCT_NAME := infinity_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6250
@@ -28,7 +28,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BLISS_BUILDTYPE=OFFICIAL
+infinity_BUILDTYPE=OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
@@ -36,3 +36,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="miatoll_global-user 12 SKQ1.211019.001 V14.0.5.0.SJZMIXM release-keys"
 
 BUILD_FINGERPRINT := Redmi/miatoll_global/miatoll:12/RKQ1.211019.001/V14.0.5.0.SJZMIXM:user/release-keys
+
+# INFINITY-X FLAGS
+INFINITY_BUILD_TYPE := COMMUNITY
+INFINITY_MAINTAINER := IHSANxATHARVA
+WITH_GAPPS := true
+TARGET_SUPPORTS_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_SUPPORTS_QUICK_TAP := true
+USE_MOTO_CALCULATOR := true
+TARGET_BUILD_VIMUSIC := true
