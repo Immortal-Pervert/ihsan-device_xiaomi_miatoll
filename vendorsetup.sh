@@ -21,9 +21,13 @@ rm -rf hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi -b lineage-21 hardware/xiaomi 
 git clone https://github.com/LineageOS/android_hardware_sony_timekeep -b lineage-21 hardware/sony/timekeep
 
-sleep 1
-
 # Miui Camera
 echo -e "${color}Cloning Miui Camera${end}"
 git clone https://github.com/c0smic-Lab/vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera
 bash vendor/xiaomi/miuicamera/vendorsetup.sh
+
+# Dolby
+echo -e "${color}Cloning Dolby${end}"
+git clone https://github.com/veux-frost-testzone/hardware_dolby hardware/dolby
+
+sleep 1
