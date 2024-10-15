@@ -9,24 +9,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-# Inherit some common Project voltage stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+# Inherit some common SuperiorOS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 2160
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
-# Voltage OS
-VOLTAGE_BUILD_TYPE := OFFICIAL
+# Superior OS
+SUPERIOR_BUILD_TYPE := HENTAI
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-PRODUCT_NAME := voltage_miatoll
+PRODUCT_NAME := superior_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
