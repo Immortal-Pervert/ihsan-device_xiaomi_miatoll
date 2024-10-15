@@ -123,6 +123,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
+    
+PRODUCT_PACKAGES += \
+    libcrypto_shim
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -523,3 +526,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 
 # Inherit proprietary targets
 $(call inherit-product, vendor/xiaomi/miatoll/miatoll-vendor.mk)
+
+# Sign 
+-include vendor/lineage-priv/keys/keys.mk
